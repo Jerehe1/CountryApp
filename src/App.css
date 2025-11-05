@@ -1,0 +1,132 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Main app container */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Header and title */
+.app-title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+/* Search form styles */
+.search-form {
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+}
+
+.search-label {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* Results container */
+.results-container {
+  margin-top: 2rem;
+}
+
+/* Simple country list */
+.country-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.country-name {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Simple button */
+.show-button, .hide-button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.show-button:hover, .hide-button:hover {
+  background: #2980b9;
+}
+
+/* Simple country details */
+.country-details {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+}
+
+.country-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.country-flag {
+  width: 100px;
+  margin: 1rem 0;
+}
+
+/* Simple weather */
+.weather-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f0f8ff;
+  border-radius: 6px;
+}
+
+.weather-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Messages */
+.too-many-matches, .loading-message {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+}
